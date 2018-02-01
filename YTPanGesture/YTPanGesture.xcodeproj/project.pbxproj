@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342A2022DFD7008E4E5B /* AppDelegate.m */; };
+		7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342D2022DFD7008E4E5B /* ViewController.m */; };
+		7AF534312022DFD7008E4E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5342F2022DFD7008E4E5B /* Main.storyboard */; };
+		7AF534332022DFD7008E4E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF534322022DFD7008E4E5B /* Assets.xcassets */; };
+		7AF534362022DFD7008E4E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */; };
+		7AF534392022DFD7008E4E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF534382022DFD7008E4E5B /* main.m */; };
+		7AF534432022DFD7008E4E5B /* YTPanGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF534422022DFD7008E4E5B /* YTPanGestureTests.m */; };
+		7AF5344E2022DFD7008E4E5B /* YTPanGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF5343F2022DFD7008E4E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF5341E2022DFD7008E4E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF534252022DFD7008E4E5B;
+			remoteInfo = YTPanGesture;
+		};
+		7AF5344A2022DFD7008E4E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF5341E2022DFD7008E4E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF534252022DFD7008E4E5B;
+			remoteInfo = YTPanGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AF534262022DFD7008E4E5B /* YTPanGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTPanGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF534292022DFD7008E4E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AF5342A2022DFD7008E4E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AF5342C2022DFD7008E4E5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AF5342D2022DFD7008E4E5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AF534302022DFD7008E4E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AF534322022DFD7008E4E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF534352022DFD7008E4E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF534372022DFD7008E4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF534382022DFD7008E4E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AF5343E2022DFD7008E4E5B /* YTPanGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPanGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF534422022DFD7008E4E5B /* YTPanGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPanGestureTests.m; sourceTree = "<group>"; };
+		7AF534442022DFD7008E4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF534492022DFD7008E4E5B /* YTPanGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPanGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPanGestureUITests.m; sourceTree = "<group>"; };
+		7AF5344F2022DFD7008E4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF534232022DFD7008E4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF5343B2022DFD7008E4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF534462022DFD7008E4E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF5341D2022DFD7008E4E5B = {
+			isa = PBXGroup;
+			children = (
+				7AF534282022DFD7008E4E5B /* YTPanGesture */,
+				7AF534412022DFD7008E4E5B /* YTPanGestureTests */,
+				7AF5344C2022DFD7008E4E5B /* YTPanGestureUITests */,
+				7AF534272022DFD7008E4E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF534272022DFD7008E4E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF534262022DFD7008E4E5B /* YTPanGesture.app */,
+				7AF5343E2022DFD7008E4E5B /* YTPanGestureTests.xctest */,
+				7AF534492022DFD7008E4E5B /* YTPanGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF534282022DFD7008E4E5B /* YTPanGesture */ = {
+			isa = PBXGroup;
+			children = (
+				7AF534292022DFD7008E4E5B /* AppDelegate.h */,
+				7AF5342A2022DFD7008E4E5B /* AppDelegate.m */,
+				7AF5342C2022DFD7008E4E5B /* ViewController.h */,
+				7AF5342D2022DFD7008E4E5B /* ViewController.m */,
+				7AF5342F2022DFD7008E4E5B /* Main.storyboard */,
+				7AF534322022DFD7008E4E5B /* Assets.xcassets */,
+				7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */,
+				7AF534372022DFD7008E4E5B /* Info.plist */,
+				7AF534382022DFD7008E4E5B /* main.m */,
+			);
+			path = YTPanGesture;
+			sourceTree = "<group>";
+		};
+		7AF534412022DFD7008E4E5B /* YTPanGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF534422022DFD7008E4E5B /* YTPanGestureTests.m */,
+				7AF534442022DFD7008E4E5B /* Info.plist */,
+			);
+			path = YTPanGestureTests;
+			sourceTree = "<group>";
+		};
+		7AF5344C2022DFD7008E4E5B /* YTPanGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */,
+				7AF5344F2022DFD7008E4E5B /* Info.plist */,
+			);
+			path = YTPanGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF534252022DFD7008E4E5B /* YTPanGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF534522022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGesture" */;
+			buildPhases = (
+				7AF534222022DFD7008E4E5B /* Sources */,
+				7AF534232022DFD7008E4E5B /* Frameworks */,
+				7AF534242022DFD7008E4E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTPanGesture;
+			productName = YTPanGesture;
+			productReference = 7AF534262022DFD7008E4E5B /* YTPanGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF5343D2022DFD7008E4E5B /* YTPanGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF534552022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGestureTests" */;
+			buildPhases = (
+				7AF5343A2022DFD7008E4E5B /* Sources */,
+				7AF5343B2022DFD7008E4E5B /* Frameworks */,
+				7AF5343C2022DFD7008E4E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF534402022DFD7008E4E5B /* PBXTargetDependency */,
+			);
+			name = YTPanGestureTests;
+			productName = YTPanGestureTests;
+			productReference = 7AF5343E2022DFD7008E4E5B /* YTPanGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AF534482022DFD7008E4E5B /* YTPanGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF534582022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGestureUITests" */;
+			buildPhases = (
+				7AF534452022DFD7008E4E5B /* Sources */,
+				7AF534462022DFD7008E4E5B /* Frameworks */,
+				7AF534472022DFD7008E4E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF5344B2022DFD7008E4E5B /* PBXTargetDependency */,
+			);
+			name = YTPanGestureUITests;
+			productName = YTPanGestureUITests;
+			productReference = 7AF534492022DFD7008E4E5B /* YTPanGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF5341E2022DFD7008E4E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					7AF534252022DFD7008E4E5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7AF5343D2022DFD7008E4E5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7AF534252022DFD7008E4E5B;
+					};
+					7AF534482022DFD7008E4E5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7AF534252022DFD7008E4E5B;
+					};
+				};
+			};
+			buildConfigurationList = 7AF534212022DFD7008E4E5B /* Build configuration list for PBXProject "YTPanGesture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF5341D2022DFD7008E4E5B;
+			productRefGroup = 7AF534272022DFD7008E4E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF534252022DFD7008E4E5B /* YTPanGesture */,
+				7AF5343D2022DFD7008E4E5B /* YTPanGestureTests */,
+				7AF534482022DFD7008E4E5B /* YTPanGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF534242022DFD7008E4E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF534362022DFD7008E4E5B /* LaunchScreen.storyboard in Resources */,
+				7AF534332022DFD7008E4E5B /* Assets.xcassets in Resources */,
+				7AF534312022DFD7008E4E5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF5343C2022DFD7008E4E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF534472022DFD7008E4E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF534222022DFD7008E4E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */,
+				7AF534392022DFD7008E4E5B /* main.m in Sources */,
+				7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF5343A2022DFD7008E4E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF534432022DFD7008E4E5B /* YTPanGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF534452022DFD7008E4E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF5344E2022DFD7008E4E5B /* YTPanGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF534402022DFD7008E4E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF534252022DFD7008E4E5B /* YTPanGesture */;
+			targetProxy = 7AF5343F2022DFD7008E4E5B /* PBXContainerItemProxy */;
+		};
+		7AF5344B2022DFD7008E4E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF534252022DFD7008E4E5B /* YTPanGesture */;
+			targetProxy = 7AF5344A2022DFD7008E4E5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF5342F2022DFD7008E4E5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF534302022DFD7008E4E5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF534352022DFD7008E4E5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF534502022DFD7008E4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AF534512022DFD7008E4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF534532022DFD7008E4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2449KE22H;
+				INFOPLIST_FILE = YTPanGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF534542022DFD7008E4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2449KE22H;
+				INFOPLIST_FILE = YTPanGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AF534562022DFD7008E4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2449KE22H;
+				INFOPLIST_FILE = YTPanGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTPanGesture.app/YTPanGesture";
+			};
+			name = Debug;
+		};
+		7AF534572022DFD7008E4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2449KE22H;
+				INFOPLIST_FILE = YTPanGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTPanGesture.app/YTPanGesture";
+			};
+			name = Release;
+		};
+		7AF534592022DFD7008E4E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2449KE22H;
+				INFOPLIST_FILE = YTPanGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTPanGesture;
+			};
+			name = Debug;
+		};
+		7AF5345A2022DFD7008E4E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2449KE22H;
+				INFOPLIST_FILE = YTPanGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTPanGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF534212022DFD7008E4E5B /* Build configuration list for PBXProject "YTPanGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF534502022DFD7008E4E5B /* Debug */,
+				7AF534512022DFD7008E4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF534522022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF534532022DFD7008E4E5B /* Debug */,
+				7AF534542022DFD7008E4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF534552022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF534562022DFD7008E4E5B /* Debug */,
+				7AF534572022DFD7008E4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF534582022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF534592022DFD7008E4E5B /* Debug */,
+				7AF5345A2022DFD7008E4E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF5341E2022DFD7008E4E5B /* Project object */;
+}
