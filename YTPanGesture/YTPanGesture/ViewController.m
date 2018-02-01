@@ -30,6 +30,8 @@
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan2:)];
     [self.panImgView addGestureRecognizer:pan];
     self.panImgView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageViewClick)];
+    [self.panImgView addGestureRecognizer:tap];
     
 }
 
@@ -65,6 +67,9 @@
         recognizer.view.center = CGPointMake(x, y);
     }
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+}
+- (void)imageViewClick {
+    self.view.backgroundColor = [UIColor blueColor];
 }
 
 @end
