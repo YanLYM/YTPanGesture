@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342A2022DFD7008E4E5B /* AppDelegate.m */; };
 		7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342D2022DFD7008E4E5B /* ViewController.m */; };
-		7AF534312022DFD7008E4E5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5342F2022DFD7008E4E5B /* Main.storyboard */; };
 		7AF534332022DFD7008E4E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF534322022DFD7008E4E5B /* Assets.xcassets */; };
 		7AF534362022DFD7008E4E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */; };
 		7AF534392022DFD7008E4E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF534382022DFD7008E4E5B /* main.m */; };
 		7AF534432022DFD7008E4E5B /* YTPanGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF534422022DFD7008E4E5B /* YTPanGestureTests.m */; };
 		7AF5344E2022DFD7008E4E5B /* YTPanGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */; };
+		7AF5345C2022EA43008E4E5B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5345B2022EA43008E4E5B /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		7AF5342A2022DFD7008E4E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7AF5342C2022DFD7008E4E5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7AF5342D2022DFD7008E4E5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7AF534302022DFD7008E4E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AF534322022DFD7008E4E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF534352022DFD7008E4E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF534372022DFD7008E4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		7AF534492022DFD7008E4E5B /* YTPanGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTPanGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPanGestureUITests.m; sourceTree = "<group>"; };
 		7AF5344F2022DFD7008E4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF5345B2022EA43008E4E5B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				7AF5342A2022DFD7008E4E5B /* AppDelegate.m */,
 				7AF5342C2022DFD7008E4E5B /* ViewController.h */,
 				7AF5342D2022DFD7008E4E5B /* ViewController.m */,
-				7AF5342F2022DFD7008E4E5B /* Main.storyboard */,
+				7AF5345B2022EA43008E4E5B /* icon.png */,
 				7AF534322022DFD7008E4E5B /* Assets.xcassets */,
 				7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */,
 				7AF534372022DFD7008E4E5B /* Info.plist */,
@@ -240,7 +240,7 @@
 			files = (
 				7AF534362022DFD7008E4E5B /* LaunchScreen.storyboard in Resources */,
 				7AF534332022DFD7008E4E5B /* Assets.xcassets in Resources */,
-				7AF534312022DFD7008E4E5B /* Main.storyboard in Resources */,
+				7AF5345C2022EA43008E4E5B /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +303,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7AF5342F2022DFD7008E4E5B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AF534302022DFD7008E4E5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
