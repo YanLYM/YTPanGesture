@@ -15,6 +15,7 @@
 		7AF534432022DFD7008E4E5B /* YTPanGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF534422022DFD7008E4E5B /* YTPanGestureTests.m */; };
 		7AF5344E2022DFD7008E4E5B /* YTPanGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */; };
 		7AF5345C2022EA43008E4E5B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5345B2022EA43008E4E5B /* icon.png */; };
+		7AF5345F2022FE67008E4E5B /* YTTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5345E2022FE67008E4E5B /* YTTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPanGestureUITests.m; sourceTree = "<group>"; };
 		7AF5344F2022DFD7008E4E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AF5345B2022EA43008E4E5B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7AF5345D2022FE67008E4E5B /* YTTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTestView.h; sourceTree = "<group>"; };
+		7AF5345E2022FE67008E4E5B /* YTTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7AF5342A2022DFD7008E4E5B /* AppDelegate.m */,
 				7AF5342C2022DFD7008E4E5B /* ViewController.h */,
 				7AF5342D2022DFD7008E4E5B /* ViewController.m */,
+				7AF5345D2022FE67008E4E5B /* YTTestView.h */,
+				7AF5345E2022FE67008E4E5B /* YTTestView.m */,
 				7AF5345B2022EA43008E4E5B /* icon.png */,
 				7AF534322022DFD7008E4E5B /* Assets.xcassets */,
 				7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */,
 				7AF534392022DFD7008E4E5B /* main.m in Sources */,
 				7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */,
+				7AF5345F2022FE67008E4E5B /* YTTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
