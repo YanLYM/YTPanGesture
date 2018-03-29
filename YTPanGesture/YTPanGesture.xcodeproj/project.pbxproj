@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D604E6F03D795D0E4D3C44B /* libPods-YTPanGestureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578E44322D57F3F8F124D208 /* libPods-YTPanGestureTests.a */; };
+		44EA366CBD1877EAF5C1DE06 /* libPods-YTPanGesture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC994216F67DA1B5623E7C4 /* libPods-YTPanGesture.a */; };
+		7ACA0F36206206D20050D935 /* YTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA0F35206206D20050D935 /* YTTableViewController.m */; };
+		7ACA0F3920620B3E0050D935 /* YTHistogramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA0F3820620B3E0050D935 /* YTHistogramTableViewCell.m */; };
 		7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342A2022DFD7008E4E5B /* AppDelegate.m */; };
 		7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342D2022DFD7008E4E5B /* ViewController.m */; };
 		7AF534332022DFD7008E4E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF534322022DFD7008E4E5B /* Assets.xcassets */; };
@@ -16,6 +20,7 @@
 		7AF5344E2022DFD7008E4E5B /* YTPanGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5344D2022DFD7008E4E5B /* YTPanGestureUITests.m */; };
 		7AF5345C2022EA43008E4E5B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF5345B2022EA43008E4E5B /* icon.png */; };
 		7AF5345F2022FE67008E4E5B /* YTTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5345E2022FE67008E4E5B /* YTTestView.m */; };
+		E268059A1A44FBE93F5A559D /* libPods-YTPanGestureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB7E8558BE26737EF6025D8 /* libPods-YTPanGestureUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB7E8558BE26737EF6025D8 /* libPods-YTPanGestureUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTPanGestureUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A6D62F954C424C78F710F6 /* Pods-YTPanGestureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGestureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGestureTests/Pods-YTPanGestureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DADC951489FD71A1A76CA7B /* Pods-YTPanGestureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGestureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGestureTests/Pods-YTPanGestureTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FBB187D4D27C7A0CBC5B928 /* Pods-YTPanGestureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGestureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGestureUITests/Pods-YTPanGestureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		578E44322D57F3F8F124D208 /* libPods-YTPanGestureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTPanGestureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA0F34206206D20050D935 /* YTTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTableViewController.h; sourceTree = "<group>"; };
+		7ACA0F35206206D20050D935 /* YTTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTableViewController.m; sourceTree = "<group>"; };
+		7ACA0F3720620B3E0050D935 /* YTHistogramTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTHistogramTableViewCell.h; sourceTree = "<group>"; };
+		7ACA0F3820620B3E0050D935 /* YTHistogramTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTHistogramTableViewCell.m; sourceTree = "<group>"; };
+		7ACA0F3A20620DC20050D935 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7ACA0F3B20620DE50050D935 /* YTGloableHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTGloableHeader.h; sourceTree = "<group>"; };
 		7AF534262022DFD7008E4E5B /* YTPanGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTPanGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF534292022DFD7008E4E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AF5342A2022DFD7008E4E5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +70,10 @@
 		7AF5345B2022EA43008E4E5B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		7AF5345D2022FE67008E4E5B /* YTTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTestView.h; sourceTree = "<group>"; };
 		7AF5345E2022FE67008E4E5B /* YTTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTestView.m; sourceTree = "<group>"; };
+		B5FF4E8FB0E1453C9165BE16 /* Pods-YTPanGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGesture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGesture/Pods-YTPanGesture.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC994216F67DA1B5623E7C4 /* libPods-YTPanGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTPanGesture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4695C94AB3AC6CA41EDFE42 /* Pods-YTPanGestureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGestureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGestureUITests/Pods-YTPanGestureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3C6C88450A27B3FDCD89A0 /* Pods-YTPanGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGesture.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGesture/Pods-YTPanGesture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EA366CBD1877EAF5C1DE06 /* libPods-YTPanGesture.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D604E6F03D795D0E4D3C44B /* libPods-YTPanGestureTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +97,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E268059A1A44FBE93F5A559D /* libPods-YTPanGestureUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1EE4721C1B3D0092BDF36F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC994216F67DA1B5623E7C4 /* libPods-YTPanGesture.a */,
+				578E44322D57F3F8F124D208 /* libPods-YTPanGestureTests.a */,
+				0FB7E8558BE26737EF6025D8 /* libPods-YTPanGestureUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7AF5341D2022DFD7008E4E5B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +121,8 @@
 				7AF534412022DFD7008E4E5B /* YTPanGestureTests */,
 				7AF5344C2022DFD7008E4E5B /* YTPanGestureUITests */,
 				7AF534272022DFD7008E4E5B /* Products */,
+				F94DEA131E2A8BFE6A502602 /* Pods */,
+				0F1EE4721C1B3D0092BDF36F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +143,10 @@
 				7AF5342A2022DFD7008E4E5B /* AppDelegate.m */,
 				7AF5342C2022DFD7008E4E5B /* ViewController.h */,
 				7AF5342D2022DFD7008E4E5B /* ViewController.m */,
+				7ACA0F34206206D20050D935 /* YTTableViewController.h */,
+				7ACA0F35206206D20050D935 /* YTTableViewController.m */,
+				7ACA0F3720620B3E0050D935 /* YTHistogramTableViewCell.h */,
+				7ACA0F3820620B3E0050D935 /* YTHistogramTableViewCell.m */,
 				7AF5345D2022FE67008E4E5B /* YTTestView.h */,
 				7AF5345E2022FE67008E4E5B /* YTTestView.m */,
 				7AF5345B2022EA43008E4E5B /* icon.png */,
@@ -115,6 +154,8 @@
 				7AF534342022DFD7008E4E5B /* LaunchScreen.storyboard */,
 				7AF534372022DFD7008E4E5B /* Info.plist */,
 				7AF534382022DFD7008E4E5B /* main.m */,
+				7ACA0F3A20620DC20050D935 /* PrefixHeader.pch */,
+				7ACA0F3B20620DE50050D935 /* YTGloableHeader.h */,
 			);
 			path = YTPanGesture;
 			sourceTree = "<group>";
@@ -137,6 +178,19 @@
 			path = YTPanGestureUITests;
 			sourceTree = "<group>";
 		};
+		F94DEA131E2A8BFE6A502602 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5FF4E8FB0E1453C9165BE16 /* Pods-YTPanGesture.debug.xcconfig */,
+				FF3C6C88450A27B3FDCD89A0 /* Pods-YTPanGesture.release.xcconfig */,
+				19A6D62F954C424C78F710F6 /* Pods-YTPanGestureTests.debug.xcconfig */,
+				1DADC951489FD71A1A76CA7B /* Pods-YTPanGestureTests.release.xcconfig */,
+				F4695C94AB3AC6CA41EDFE42 /* Pods-YTPanGestureUITests.debug.xcconfig */,
+				4FBB187D4D27C7A0CBC5B928 /* Pods-YTPanGestureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF534522022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGesture" */;
 			buildPhases = (
+				AB544556BDF8228E8E653368 /* [CP] Check Pods Manifest.lock */,
 				7AF534222022DFD7008E4E5B /* Sources */,
 				7AF534232022DFD7008E4E5B /* Frameworks */,
 				7AF534242022DFD7008E4E5B /* Resources */,
+				51967059F5045B9AC1731E0A /* [CP] Embed Pods Frameworks */,
+				F243F3BD4AE0F766FEF0FBC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF534552022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGestureTests" */;
 			buildPhases = (
+				0839428A6566E64B92393ADB /* [CP] Check Pods Manifest.lock */,
 				7AF5343A2022DFD7008E4E5B /* Sources */,
 				7AF5343B2022DFD7008E4E5B /* Frameworks */,
 				7AF5343C2022DFD7008E4E5B /* Resources */,
+				D1F0090931C305E4B91AA505 /* [CP] Embed Pods Frameworks */,
+				9C845F3FE5BA692D35C00110 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AF534582022DFD7008E4E5B /* Build configuration list for PBXNativeTarget "YTPanGestureUITests" */;
 			buildPhases = (
+				273B6A03015D5781B36CEFEE /* [CP] Check Pods Manifest.lock */,
 				7AF534452022DFD7008E4E5B /* Sources */,
 				7AF534462022DFD7008E4E5B /* Frameworks */,
 				7AF534472022DFD7008E4E5B /* Resources */,
+				77076772328E63716C9B182C /* [CP] Embed Pods Frameworks */,
+				3B7B17BF24BF65176A7B3AF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +328,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0839428A6566E64B92393ADB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPanGestureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		273B6A03015D5781B36CEFEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPanGestureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B7B17BF24BF65176A7B3AF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPanGestureUITests/Pods-YTPanGestureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51967059F5045B9AC1731E0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPanGesture/Pods-YTPanGesture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77076772328E63716C9B182C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPanGestureUITests/Pods-YTPanGestureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C845F3FE5BA692D35C00110 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPanGestureTests/Pods-YTPanGestureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB544556BDF8228E8E653368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPanGesture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F0090931C305E4B91AA505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPanGestureTests/Pods-YTPanGestureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F243F3BD4AE0F766FEF0FBC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPanGesture/Pods-YTPanGesture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AF534222022DFD7008E4E5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,7 +483,9 @@
 				7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */,
 				7AF534392022DFD7008E4E5B /* main.m in Sources */,
 				7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */,
+				7ACA0F3920620B3E0050D935 /* YTHistogramTableViewCell.m in Sources */,
 				7AF5345F2022FE67008E4E5B /* YTTestView.m in Sources */,
+				7ACA0F36206206D20050D935 /* YTTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +638,12 @@
 		};
 		7AF534532022DFD7008E4E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FF4E8FB0E1453C9165BE16 /* Pods-YTPanGesture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2449KE22H;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YTPanGesture/PrefixHeader.pch";
 				INFOPLIST_FILE = YTPanGesture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGesture;
@@ -440,10 +654,12 @@
 		};
 		7AF534542022DFD7008E4E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3C6C88450A27B3FDCD89A0 /* Pods-YTPanGesture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2449KE22H;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YTPanGesture/PrefixHeader.pch";
 				INFOPLIST_FILE = YTPanGesture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbb.YTPanGesture;
@@ -454,6 +670,7 @@
 		};
 		7AF534562022DFD7008E4E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A6D62F954C424C78F710F6 /* Pods-YTPanGestureTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +686,7 @@
 		};
 		7AF534572022DFD7008E4E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DADC951489FD71A1A76CA7B /* Pods-YTPanGestureTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +702,7 @@
 		};
 		7AF534592022DFD7008E4E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4695C94AB3AC6CA41EDFE42 /* Pods-YTPanGestureUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2449KE22H;
@@ -498,6 +717,7 @@
 		};
 		7AF5345A2022DFD7008E4E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBB187D4D27C7A0CBC5B928 /* Pods-YTPanGestureUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2449KE22H;

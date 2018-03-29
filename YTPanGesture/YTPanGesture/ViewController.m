@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "YTTableViewController.h"
+
+#import <SDCycleScrollView.h>
+
 
 @interface ViewController ()
 
@@ -27,15 +31,15 @@
     [self.view addSubview:self.panImgView];
     self.panImgView.frame = CGRectMake(100, 64, 100, 100);
     self.panImgView.image = [UIImage imageNamed:@"icon.png"];
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan2:)];
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
     [self.panImgView addGestureRecognizer:pan];
     self.panImgView.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(imageViewClick)];
     [self.panImgView addGestureRecognizer:tap];
-    
+
 }
 
-- (void)handlePan2:(UIPanGestureRecognizer *)recognizer {
+- (void)handlePan:(UIPanGestureRecognizer *)recognizer {
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     CGPoint translatedPoint = [recognizer translationInView:self.view];
@@ -69,7 +73,18 @@
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
 }
 - (void)imageViewClick {
-    self.view.backgroundColor = [UIColor blueColor];
+//    self.view.backgroundColor = [UIColor blueColor];
+    YTTableViewController *vc = [[YTTableViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)testCycleScrollView {
+    CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
+    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+    UIImage *image = [UIImage imageNamed:@"icon.png"];
+    NSArray *arr = @[image,image,image,image];
+    SDCycleScrollView *scrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 200, screenWidth, 100) imageNamesGroup:arr];
+    [self.view addSubview:scrollView];
 }
 
 @end
