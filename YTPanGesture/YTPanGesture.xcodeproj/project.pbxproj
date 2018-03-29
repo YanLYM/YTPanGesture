@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D604E6F03D795D0E4D3C44B /* libPods-YTPanGestureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578E44322D57F3F8F124D208 /* libPods-YTPanGestureTests.a */; };
 		44EA366CBD1877EAF5C1DE06 /* libPods-YTPanGesture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC994216F67DA1B5623E7C4 /* libPods-YTPanGesture.a */; };
+		7A3A6BE4206CAD3600A0CEE8 /* YTScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A6BE3206CAD3600A0CEE8 /* YTScanViewController.m */; };
 		7ACA0F36206206D20050D935 /* YTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA0F35206206D20050D935 /* YTTableViewController.m */; };
 		7ACA0F3920620B3E0050D935 /* YTHistogramTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA0F3820620B3E0050D935 /* YTHistogramTableViewCell.m */; };
 		7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5342A2022DFD7008E4E5B /* AppDelegate.m */; };
@@ -46,6 +47,8 @@
 		1DADC951489FD71A1A76CA7B /* Pods-YTPanGestureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGestureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGestureTests/Pods-YTPanGestureTests.release.xcconfig"; sourceTree = "<group>"; };
 		4FBB187D4D27C7A0CBC5B928 /* Pods-YTPanGestureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPanGestureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTPanGestureUITests/Pods-YTPanGestureUITests.release.xcconfig"; sourceTree = "<group>"; };
 		578E44322D57F3F8F124D208 /* libPods-YTPanGestureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTPanGestureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3A6BE2206CAD3600A0CEE8 /* YTScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTScanViewController.h; sourceTree = "<group>"; };
+		7A3A6BE3206CAD3600A0CEE8 /* YTScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTScanViewController.m; sourceTree = "<group>"; };
 		7ACA0F34206206D20050D935 /* YTTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTTableViewController.h; sourceTree = "<group>"; };
 		7ACA0F35206206D20050D935 /* YTTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTTableViewController.m; sourceTree = "<group>"; };
 		7ACA0F3720620B3E0050D935 /* YTHistogramTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTHistogramTableViewCell.h; sourceTree = "<group>"; };
@@ -114,6 +117,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7A3A6BE1206CACF100A0CEE8 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				7A3A6BE2206CAD3600A0CEE8 /* YTScanViewController.h */,
+				7A3A6BE3206CAD3600A0CEE8 /* YTScanViewController.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
 		7AF5341D2022DFD7008E4E5B = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +151,7 @@
 		7AF534282022DFD7008E4E5B /* YTPanGesture */ = {
 			isa = PBXGroup;
 			children = (
+				7A3A6BE1206CACF100A0CEE8 /* Scan */,
 				7AF534292022DFD7008E4E5B /* AppDelegate.h */,
 				7AF5342A2022DFD7008E4E5B /* AppDelegate.m */,
 				7AF5342C2022DFD7008E4E5B /* ViewController.h */,
@@ -487,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3A6BE4206CAD3600A0CEE8 /* YTScanViewController.m in Sources */,
 				7AF5342E2022DFD7008E4E5B /* ViewController.m in Sources */,
 				7AF534392022DFD7008E4E5B /* main.m in Sources */,
 				7AF5342B2022DFD7008E4E5B /* AppDelegate.m in Sources */,
