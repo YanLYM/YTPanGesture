@@ -1,20 +1,30 @@
 PODS:
+  - LBXScan (2.2):
+    - LBXScan/All (= 2.2)
+  - LBXScan/All (2.2):
+    - LBXScan/Types (~> 2.2)
+    - ZBarSDK (~> 1.3.1)
+  - LBXScan/Types (2.2)
   - Masonry (1.1.0)
   - SDCycleScrollView (1.73):
     - SDWebImage (~> 4.0.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
+  - LBXScan (~> 2.2)
   - Masonry (~> 1.1.0)
   - SDCycleScrollView (~> 1.73)
 
 SPEC CHECKSUMS:
+  LBXScan: 31b69c9657404133324e6b68ef814802ef9cacc0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: 79ad59c4b45db67996f4540e6852b2c186ea205a
+PODFILE CHECKSUM: a8aa501d15d863568448e4c46ea4ed192f794c8d
 
 COCOAPODS: 1.4.0.beta.1

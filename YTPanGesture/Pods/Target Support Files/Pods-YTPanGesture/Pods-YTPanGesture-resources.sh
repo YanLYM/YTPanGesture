@@ -83,6 +83,20 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png"
+  install_resource "${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
